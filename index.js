@@ -8,7 +8,7 @@ const ipIsp = document.getElementById("ip-isp");
 
 const getMap = (lat, lng) => {
   var myIcon = L.icon({
-    iconUrl: "icon-location.svg",
+    iconUrl: "images/icon-location.svg",
   });
   map.setView([lat, lng], 13);
   L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
