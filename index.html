@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""
+    />
+
+    <script
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+      crossorigin=""
+    ></script>
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./style/style.css" />
+
+    <title>Frontend Mentor | IP Address Tracker</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1>IP Address Tracker</h1>
+      <form id="ip-input-form">
+        <input
+          id="ip-input"
+          type="text"
+          placeholder="Search for any IP address or domain"
+        />
+        <button type="submit">
+          <img src="./images/icon-arrow.svg" alt="submit button" />
+        </button>
+      </form>
+    </header>
+    <main>
+      <div class="ip-data">
+        <div class="ip-data-leftmost">
+          <h2>IP ADDRESS</h2>
+          <div id="ip-address"></div>
+        </div>
+        <div>
+          <h2>LOCATION</h2>
+          <div id="ip-location"></div>
+        </div>
+        <div>
+          <h2>TIMEZONE</h2>
+          <div id="ip-timezone"></div>
+        </div>
+        <div>
+          <h2>ISP</h2>
+          <div id="ip-isp"></div>
+        </div>
+      </div>
+      <div id="map"></div>
+    </main>
+
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://github.com/keshavkumarhembram">Keshav Kumar Hembram</a>.
+
+      <script src="./script/index.js"></script>
+    </footer>
+  </body>
+</html>
