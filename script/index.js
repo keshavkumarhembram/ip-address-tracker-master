@@ -8,14 +8,14 @@ const ipIsp = document.getElementById("ip-isp");
 
 const getMap = (lat, lng) => {
   var myIcon = L.icon({
-    iconUrl: '../images/icon-location.svg',
+    iconUrl: "icon-location.svg",
   });
   map.setView([lat, lng], 13);
   L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
     attribution:
       '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
   }).addTo(map);
-  let marker = L.marker([lat, lng], {icon: myIcon}).addTo(map);
+  let marker = L.marker([lat, lng], { icon: myIcon }).addTo(map);
 };
 
 const showIpData = (data) => {
