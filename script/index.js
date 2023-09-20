@@ -7,8 +7,8 @@ const ipTimezone = document.getElementById("ip-timezone");
 const ipIsp = document.getElementById("ip-isp");
 
 const getMap = (lat, lng) => {
-  let myIcon = L.icon({
-    iconUrl: './../images/icon-location.svg',
+  var myIcon = L.icon({
+    iconUrl: '../images/icon-location.svg',
   });
   map.setView([lat, lng], 13);
   L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
