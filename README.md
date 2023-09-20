@@ -7,16 +7,20 @@ This is a solution to the [IP address tracker challenge on Frontend Mentor](http
 - [Frontend Mentor - IP address tracker solution](#frontend-mentor---ip-address-tracker-solution)
   - [Table of contents](#table-of-contents)
   - [Overview](#overview)
+    - [Links](#links)
     - [The challenge](#the-challenge)
     - [Screenshot](#screenshot)
-    - [Links](#links)
   - [My process](#my-process)
     - [Built with](#built-with)
   - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
+
+### Links
+
+- Solution URL: [Github](https://github.com/keshavkumarhembram/ip-address-tracker-master)
+- Live Site URL: [Live Site](https://keshavkumarhembram.github.io/ip-address-tracker-master/)
 
 ### The challenge
 
@@ -39,10 +43,6 @@ Users should be able to:
 
 ![](./screenshots/mobile-2.png)
 
-### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
 

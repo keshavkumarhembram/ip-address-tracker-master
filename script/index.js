@@ -7,7 +7,7 @@ const ipTimezone = document.getElementById("ip-timezone");
 const ipIsp = document.getElementById("ip-isp");
 
 const myIcon = L.icon({
-  iconUrl: '../images/icon-location.svg',
+  iconUrl: './../images/icon-location.svg',
 });
 
 const getMap = (lat, lng) => {
