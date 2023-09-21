@@ -10,7 +10,9 @@ const getMap = (lat, lng) => {
   var myIcon = L.icon({
     iconUrl: "images/icon-location.svg",
   });
-  map.setView([lat, lng], 13);
+  map.flyTo([lat, lng], 13, {
+    animate: true,
+  });
   L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
     attribution:
       '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
